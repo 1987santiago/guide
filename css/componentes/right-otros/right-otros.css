@@ -1,0 +1,145 @@
+/*------- Derecha / Otros Destacados ------*/
+
+/* ---- Estaciones por default ---- */
+
+.otros {
+	border-bottom: 3px solid #DDD;
+	margin-bottom: 12px;
+}
+
+.otros a {
+	display: block;
+	position: relative;
+	padding-bottom: 20px;
+	width: 285px;
+}
+
+.otros a .img {
+	width: 137px;
+}
+
+.otros a p.title {
+	color: #45b4e0;
+	font-size: 16px;
+	width: 130px;
+	margin-left: 16px;
+}
+
+.otros a:hover p.title {
+	text-decoration: underline;
+}
+
+/* ---- Hitos ---- */
+
+.otros.hitos a {
+	padding-bottom: 10px;
+}
+
+.otros.hitos a p.title {
+	color: #7ea530;
+	margin-left: 0;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+/* ---- Circuitos ---- */
+
+.otros.circuitos a {
+	padding-bottom: 10px;
+}
+
+.otros.circuitos a p.title {
+	color: #b25774;
+	margin-left: 0;
+	margin-bottom: 8px;
+	width: 100%;
+}
+.otros.circuitos p {
+	margin-bottom: 15px;
+}
+/* ---- Rutas ---- */
+
+.otros.rutas a p.title {
+	color: #0064be;
+}
+
+/* ---- Parques ---- */
+
+.otros.parques a p.title {
+	color: #3ca581;
+}
+
+/* ---- Imperdibles ---- */
+
+.otros.imperdibles a {
+	padding-bottom: 10px;
+}
+
+.otros.imperdibles a p.title {
+	color: #dd392f;
+	margin-left: 0;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+/* ---- Sugerencias ---- */
+
+.otros.sugerencias a {
+	padding-bottom: 10px;
+}
+
+.otros.sugerencias a p.title {
+	color: #ebad37;
+	margin-left: 0;
+	padding-left: 45px;
+	padding-top: 7px;
+	margin-bottom: 8px;
+	width: 240px;
+	height: 29px;
+}
+
+/*Iconos*/
+
+.otros.sugerencias a p.title.viajar,
+.otros.sugerencias a p.title.actividades,
+.otros.sugerencias a p.title.dormir,
+.otros.sugerencias a p.title.comer,
+.otros.sugerencias a p.title.beber {
+	background: url(../../assets/sprite-sugerencias.png) no-repeat; 
+}
+
+.otros.sugerencias a p.title.actividades {
+	background-position: 0 -45px;
+}
+
+.otros.sugerencias a p.title.dormir {
+	background-position: 0 -90px;
+}
+
+.otros.sugerencias a p.title.comer {
+	background-position: 0 -136px;
+}
+
+.otros.sugerencias a p.title.beber {
+	background-position: 0 -183px;
+}
+
+/* ---- Notas ---- */
+
+.otros.notas a {
+	padding-bottom: 10px;
+}
+
+.otros.notas a p.title {
+	color: #04c2ac;
+	margin-left: 0;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+
+
+
+
+
+

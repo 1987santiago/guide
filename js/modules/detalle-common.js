@@ -1,25 +1,26 @@
 ;(function(){
-	$('.owl-carousel-detalle').owlCarousel({
-	    loop:false,
-	    margin:0,
-	    nav:true,
-	    dots:false,
-	    responsiveClass:true,
-	    navText:['<img src="css/assets/owl-prev.png" alt="">','<img src="css/assets/owl-next.png" alt="">'],
-	    responsive:{
-	        0:{
-	            items:1,
-	            nav:false
-	        },
-	        768:{
-	            items:1
-	        },
-	        1024:{
-	            items:1
-	        }
-	    }
-	})
-
+	if( $(".owl-carousel-detalle").length > 0 ){
+		$('.owl-carousel-detalle').owlCarousel({
+		    loop:false,
+		    margin:0,
+		    nav:true,
+		    dots:false,
+		    responsiveClass:true,
+		    navText:['<img src="css/assets/owl-prev.png" alt="">','<img src="css/assets/owl-next.png" alt="">'],
+		    responsive:{
+		        0:{
+		            items:1,
+		            nav:false
+		        },
+		        768:{
+		            items:1
+		        },
+		        1024:{
+		            items:1
+		        }
+		    }
+		});
+	}
 	$(".options-content.mob ul.det-options li.like a").click(function(e) {
   		e.preventDefault();
 		//$(".navNuevo").toggleClass("open");

@@ -149,25 +149,27 @@
 	});
 
 	/* carrousel */
-	$('.owl-carousel').owlCarousel({
-	    loop:false,
-	    margin:0,
-	    nav:false,
-	    responsiveClass:true,
-	    responsive:{
-	        0:{
-	            items:3,
-	            dots:true,
-	        },
-	        768:{
-	            items:7,
-	            dots:false
-	        },
-	        1024:{
-	            items:7
-	        }
-	    }
-	})
+	if( $(".owl-carousel").length > 0 ){
+		$('.owl-carousel').owlCarousel({
+		    loop:false,
+		    margin:0,
+		    nav:false,
+		    responsiveClass:true,
+		    responsive:{
+		        0:{
+		            items:3,
+		            dots:true,
+		        },
+		        768:{
+		            items:7,
+		            dots:false
+		        },
+		        1024:{
+		            items:7
+		        }
+		    }
+		});
+	}
 
 	//Placeholder fallback
 	if($("input[placeholder],textarea[placeholder]").length > 0){

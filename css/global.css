@@ -1686,7 +1686,134 @@ footer .share dd a{
         display: inline;
     }
 
+/*  HEADER LOGIN */
+.onlyMob {
+    display: none !important;
+}
+.onlyDesk {
+    display: inline-block !important;
+}
+.headerYPF .login #loginModal.submenu {
+    height: 290px;
+}
+#loginModal p {
+    color: #757575;
+    font-size: 13px;
+    text-align: center;
+}
 
+#loginModal form .btn-login-facebook {
+    background: url("./assets/fb-button.png") no-repeat scroll center center transparent;
+    display: block;
+    height: 37px;
+    margin: 10px auto;
+    overflow: hidden;
+    text-indent: -200em;
+    width: 150px;
+    border-left: none;
+}
+#loginModal form p.line-through{
+    margin: 20px auto 14px;
+    position: relative;
+}
+#loginModal form p.line-through:before {
+    background: none repeat scroll 0 0 #d2d2d2;
+    border-bottom: 1px solid #dedede;
+    content: ".";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    text-indent: -200em;
+    top: 50%;
+    width: 100%;
+    z-index: 10;
+}
+#loginModal form p.line-through span {
+    background: none repeat scroll 0 0 #f2f3f3;
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+    z-index: 20;
+}
+#loginModal form .form-group {
+    display: block;
+    margin: 4px auto;
+    width: 88%;
+    vertical-align: middle;
+    padding: 0;
+}
+#loginModal form .form-group input[type="text"], 
+#loginModal form .form-group input[type="password"] {
+    border: 2px solid #cecece;
+    color: #a2a2a2;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    height: 32px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    line-height: 1.42857;
+    padding: 0;
+    text-indent: 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+#loginModal form hr {
+    border-top: 1px solid #dcdcdc;
+    margin: 15px 0 0 0;
+}
+#loginModal form .form-bottom {
+    padding: 12px 0;
+    overflow: hidden;
+}
+#loginModal form .form-bottom a, 
+#loginModal form .form-bottom span, 
+#loginModal form .btn-register a, 
+#loginModal form .btn-register span {
+    color: #5682e6;
+    float: left;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0;
+    border: none;
+    width: auto;
+    text-transform: none;
+    height: auto;
+}
+#loginModal form .btn {
+    background-color: transparent;
+    border: 0 none;
+    box-shadow: none;
+    color: #45c3d3;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 7px 0;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+    float: right;
+    line-height: 18px;
+    padding: 0;
+    -moz-user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: "din-medium";
+}
+#loginModal form .btn .arrow-right {
+    background: url("./assets/icon_arrow_cyan.png") no-repeat scroll center center transparent;
+    display: inline-block;
+    height: 12px;
+    width: 18px;
+}
 
 
 /* TipTip CSS - Version 1.2 */
@@ -1812,6 +1939,12 @@ footer .share dd a{
     display: none;
 }
 @media (max-width: 1023px) { 
+    .onlyMob {
+        display: block !important;
+    }
+    .onlyDesk {
+        display: none !important;
+    }
     .headerYPF > div, .headerBuscador > div {
         max-width: 100%;
         min-width: 100%;
@@ -1824,17 +1957,14 @@ footer .share dd a{
     }
     .openmenu {
         display: block;
-        width: 37px;
-        height: 37px;
+        width: 44px;
+        height: 34px;
         background: url("./assets/open-menu.png") no-repeat center center !important;
         float: right;
         cursor: pointer;
+        z-index: 9;
+        position: relative;
         margin: 10px 10px 0 0 !important;
-        -moz-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
         -ms-transition: all 0.3s ease;
@@ -1842,11 +1972,7 @@ footer .share dd a{
         transition: all 0.3s ease;
     }
     .openmenu.open {
-        -moz-transform: rotate(-90deg);
-        -webkit-transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        transform: rotate(-90deg);
+        background: url("./assets/open-menu-on.png") no-repeat center center !important;
     }
     .headerYPF .navNuevo{
         float: none;
@@ -1910,30 +2036,44 @@ footer .share dd a{
 
     .headerYPF .navNuevo > ul.principal > li.arma-tu-viaje a:hover,
     .headerYPF .navNuevo > ul.principal > li.arma-tu-viaje a.active {
-        background: url("./assets/ic-menu-viaje-on.png") no-repeat left center #ebebeb !important;
-        color: #aaa9a8;
+        background: url("./assets/ic-menu-viaje-on.png") no-repeat left center transparent !important;
+        color: #0063be;
     }
     .headerYPF .navNuevo > ul.principal > li.regiones a:hover,
     .headerYPF .navNuevo > ul.principal > li.regiones a.active {
-        background: url("./assets/ic-menu-regiones-on.png") no-repeat left center #ebebeb !important;
-        color: #aaa9a8;
+        background: url("./assets/ic-menu-regiones-on.png") no-repeat left center transparent !important;
+        color: #0063be;
     }
     .headerYPF .navNuevo > ul.principal > li.sabias a:hover,
     .headerYPF .navNuevo > ul.principal > li.sabias a.active {
-        background: url("./assets/ic-menu-sabias-on.png") no-repeat left center #ebebeb !important;
-        color: #aaa9a8;
+        background: url("./assets/ic-menu-sabias-on.png") no-repeat left center transparent !important;
+        color: #0063be;
     }
     .headerYPF .navNuevo > ul.principal > li.guia-ypf a:hover,
     .headerYPF .navNuevo > ul.principal > li.guia-ypf a.active {
-        background: url("./assets/ic-menu-guias-on.png") no-repeat left center #ebebeb !important;
-        color: #aaa9a8;
+        background: url("./assets/ic-menu-guias-on.png") no-repeat left center transparent !important;
+        color: #0063be;
     }
     .headerYPF .navNuevo > ul.principal > li.tour a:hover,
     .headerYPF .navNuevo > ul.principal > li.tour a.active {
-        background: url("./assets/ic-menu-tour-on.png") no-repeat left center #ebebeb !important;
-        color: #aaa9a8;
+        background: url("./assets/ic-menu-tour-on.png") no-repeat left center transparent !important;
+        color: #0063be;
     }
 
+    .headerYPF .navNuevo > ul.principal > li.login,
+    .headerYPF .navNuevo > ul.principal > li.regiones,
+    .headerYPF .navNuevo > ul.principal > li.sabias,
+    .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf {
+        background: url("./assets/dropdown_menu_arrows.png") no-repeat scroll right 14px transparent;
+    }
+
+    .headerYPF .navNuevo > ul.secundaria li.asterisco a,
+    .headerYPF .navNuevo > ul.secundaria li.sitios-ypf a {
+        padding-left: 10px !important;
+    }
+    .headerYPF .submenu {
+        box-shadow: none;
+    }
 
     /*.headerYPF .navNuevo > ul.principal a:hover,
     .headerYPF .navNuevo > ul.principal a.open {
@@ -1970,15 +2110,19 @@ footer .share dd a{
     .headerYPF .navNuevo > ul.secundaria li a span.hide{
         display: inline-block;
     }
-    .headerYPF .navNuevo > ul.secundaria li.login a{
+    .headerYPF .navNuevo > ul.principal li.login a{
         background: url('./assets/ic-menu-login.png') left no-repeat;
     }
-    .headerYPF .navNuevo > ul.secundaria li.login a:hover{
+    .headerYPF .navNuevo > ul.principal li.login a:hover {
         background: url('./assets/ic-menu-login-on.png') left no-repeat;
+    }
+    .headerYPF .navNuevo > ul.principal li.login a.open {
+        color: #0063be;
+        background: url('./assets/ic-menu-login.png') left no-repeat;
     }
     .headerYPF .navNuevo > ul.secundaria li.icon a:hover,
     .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf > a:hover{
-        background-color: #ebebeb;
+        color: #0063be;
     }
     .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf a{
         min-width: 100%;
@@ -2006,6 +2150,16 @@ footer .share dd a{
         padding: 0;
         border-left: none;
     }
+    .headerYPF .navNuevo > ul.secundaria {
+        padding-left: 0;
+    }
+
+    .headerYPF .navNuevo > ul.secundaria li.icon.login {
+
+    }
+
+
+
     footer {
         text-align: center;
     }
@@ -2039,7 +2193,8 @@ footer .share dd a{
 
     .headerYPF .submenu,
     .headerYPF .sabias .submenu,
-    .headerYPF .regiones .submenu {
+    .headerYPF .regiones .submenu,
+    .headerYPF .login #loginModal.submenu {
         position: relative;
         height: auto;
         left: 0;
@@ -2048,6 +2203,13 @@ footer .share dd a{
         right: 0;
         width: 100%;
         overflow: hidden;
+    }
+    .headerYPF .login #loginModal form .login-form-inner,
+    .headerYPF .login #loginModal form .btn-register {
+        padding: 15px 35px 0;
+    }
+    #loginModal form .form-bottom a, #loginModal form .form-bottom span, #loginModal form .btn-register a, #loginModal form .btn-register span {
+        background: none;
     }
     .headerYPF .submenu .info {
         display: none;

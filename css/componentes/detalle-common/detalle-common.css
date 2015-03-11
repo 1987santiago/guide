@@ -1,33 +1,3 @@
-
-
-.detalle-common .main-img {
-    position: relative;
-    margin-bottom: 16px;
-}
-
-.detalle-common .main-img img {
-    display: block;
-    width: 100%;
-}
-
-.detalle-common .main-img p {
-    position: absolute;
-    bottom: 20px;
-    left: 18px;
-    margin: 0;
-    padding: 0;
-    color: #FFF;
-    font-size: 21px;
-    font-family: "din-regular";
-    z-index: 3;
-}
-.detalle-common .main-img p span.imperdible {
-    display: block;
-    width: 38px;
-    height: 38px;
-    background: url(../../assets/sprite-tipoinfo.png) -51px 0 no-repeat;
-    margin-bottom: 6px;
-}
 .detalle-common ul.relacionados {
     margin-bottom: 20px;
 }
@@ -79,7 +49,6 @@
     background: url(../../assets/icon-li-areas.png) no-repeat;
 }
 
-.detalle-common .main-img p span.nota,
 .detalle-common p.titulo span.nota {
     display: block;
     width: 38px;
@@ -93,23 +62,6 @@
     font-size: 21px;
     line-height: 1.2;
     color: #333;
-}
-
-.detalle-common .main-img .tag.patagonia {
-    left:-16px;
-    top: 16px;
-    width: 83px;
-    height: 30px;
-    text-indent: -9000px;
-    background: url(../../assets/sprite-tags.png) 0 -122px no-repeat;
-    position: absolute;
-}
-.detalle-common .main-img p span.sugerencia {
-    display: block;
-    width: 38px;
-    height: 38px;
-    background: url(../../assets/sprite-tipoinfo.png) no-repeat;
-    margin-bottom: 6px;
 }
 
 .owl-prev {

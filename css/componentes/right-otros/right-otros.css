@@ -18,16 +18,33 @@
 	width: 137px;
 }
 
+.otros .left.title-content{
+	width: 130px;
+	margin-left: 16px;
+}
+
 .otros a p.title {
 	color: #45b4e0;
 	font-size: 16px;
-	width: 130px;
-	margin-left: 16px;
 }
 
 .otros a:hover p.title {
 	text-decoration: underline;
 }
+
+.otros .rating-stars {
+    background: url('../../assets/sprite-stars.png') no-repeat;
+    width: 60px;
+    height: 12px;
+    margin: 3px 0 5px;
+    text-indent: -9999px;
+}
+
+.otros .rating-stars.uno { background-position: 0 -13px}
+.otros .rating-stars.dos { background-position: 0 -26px}
+.otros .rating-stars.tres { background-position: 0 -39px}
+.otros .rating-stars.cuatro { background-position: 0 -52px}
+.otros .rating-stars.cinco { background-position: 0 -65px}
 
 /* ---- Hitos ---- */
 
@@ -35,11 +52,14 @@
 	padding-bottom: 10px;
 }
 
+.otros.hitos a .left.title-content {
+	width: 100%;
+	margin-left: 0;
+}
+
 .otros.hitos a p.title {
 	color: #7ea530;
-	margin-left: 0;
 	margin-bottom: 8px;
-	width: 100%;
 }
 
 /* ---- Circuitos ---- */
@@ -48,11 +68,14 @@
 	padding-bottom: 10px;
 }
 
-.otros.circuitos a p.title {
-	color: #b25774;
-	margin-left: 0;
-	margin-bottom: 8px;
+.otros.circuitos a .left.title-content {
 	width: 100%;
+	margin-left: 0;
+}
+
+.otros.circuitos a .title {
+	color: #b25774;
+	margin-bottom: 8px;
 }
 .otros.circuitos p {
 	margin-bottom: 15px;
@@ -75,11 +98,30 @@
 	padding-bottom: 10px;
 }
 
+.otros.imperdibles a .left.title-content {
+	width: 100%;
+	margin-left: 0;
+}
+
 .otros.imperdibles a p.title {
 	color: #dd392f;
-	margin-left: 0;
 	margin-bottom: 8px;
+}
+
+/* ---- Notas ---- */
+
+.otros.notas a {
+	padding-bottom: 10px;
+}
+
+.otros.notas a .left.title-content {
 	width: 100%;
+	margin-left: 0;
+}
+
+.otros.notas a p.title {
+	color: #04c2ac;
+	margin-bottom: 8px;
 }
 
 /* ---- Sugerencias ---- */
@@ -123,21 +165,6 @@
 .otros.sugerencias a p.title.beber {
 	background-position: 0 -183px;
 }
-
-/* ---- Notas ---- */
-
-.otros.notas a {
-	padding-bottom: 10px;
-}
-
-.otros.notas a p.title {
-	color: #04c2ac;
-	margin-left: 0;
-	margin-bottom: 8px;
-	width: 100%;
-}
-
-
 
 
 

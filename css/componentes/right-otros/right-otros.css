@@ -124,6 +124,12 @@
 	margin-bottom: 8px;
 }
 
+/* ---- mas votadas ---- */
+
+.otros.mas-votadas a p.title {
+	color: #14B9A7;
+}
+
 /* ---- Sugerencias ---- */
 
 .otros.sugerencias a {

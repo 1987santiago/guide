@@ -31,6 +31,10 @@ section.content .otras-regiones-common .otras-regiones-bloque{
         margin: 0 auto;
     }
 
+    .otras-regiones-bloque p.desc{
+        display: none;
+    }
+
     section.content .otras-regiones-common .responsive-regiones-container .otras-regiones-bloque {
         width: 100%;
         float: none;

@@ -4,7 +4,12 @@
 
 section.content .otras-regiones-common .otras-regiones-bloque{
     width: 47%;
-    display: block
+    display: block;
+}
+
+.panoramica-argentina .otras-regiones-common .fluid-regiones-container .left,
+.panoramica-argentina .otras-regiones-common .fluid-regiones-container .right{
+    width: 47%;
 }
 
 .otras-regiones-common .fluid-regiones-container .otras-regiones-bloque,
@@ -27,5 +32,15 @@ section.content .otras-regiones-common .otras-regiones-bloque{
     section.content .otras-regiones-common .responsive-regiones-container .otras-regiones-bloque {
         width: 100%;
         float: none;
+    }
+
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .left,
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .right {
+        width: 100%;
+    }
+
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .left .otras-regiones-bloque,
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .right .otras-regiones-bloque {
+        width: 47%;
     }
 }

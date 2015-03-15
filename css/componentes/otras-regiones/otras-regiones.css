@@ -8,7 +8,9 @@ section.content .otras-regiones-common .otras-regiones-bloque{
 }
 
 .panoramica-argentina .otras-regiones-common .fluid-regiones-container .left,
-.panoramica-argentina .otras-regiones-common .fluid-regiones-container .right{
+.panoramica-argentina .otras-regiones-common .fluid-regiones-container .right,
+.region .otras-regiones-common .fluid-regiones-container .left,
+.region .otras-regiones-common .fluid-regiones-container .right{
     width: 47%;
 }
 
@@ -35,12 +37,16 @@ section.content .otras-regiones-common .otras-regiones-bloque{
     }
 
     .panoramica-argentina .otras-regiones-common .fluid-regiones-container .left,
-    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .right {
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .right,
+    .region .otras-regiones-common .fluid-regiones-container .left,
+    .region .otras-regiones-common .fluid-regiones-container .right {
         width: 100%;
     }
 
     .panoramica-argentina .otras-regiones-common .fluid-regiones-container .left .otras-regiones-bloque,
-    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .right .otras-regiones-bloque {
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .right .otras-regiones-bloque,
+    .region .otras-regiones-common .fluid-regiones-container .left .otras-regiones-bloque,
+    .region .otras-regiones-common .fluid-regiones-container .right .otras-regiones-bloque {
         width: 47%;
     }
 }

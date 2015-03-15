@@ -22,28 +22,33 @@
     font-family: "din-regular";
     z-index: 3;
 }
-.main-img p span.imperdible {
+
+.main-img p span.main-img-icons {
     display: block;
     width: 38px;
     height: 38px;
-    background: url(../../assets/sprite-tipoinfo.png) -51px 0 no-repeat;
     margin-bottom: 6px;
+    background: url(../../assets/sprite-tipoinfo.png) no-repeat;
+}
+
+.main-img p span.imperdible {
+    background-position: -51px 0;
 }
 
 .main-img p span.sugerencia {
-    display: block;
-    width: 38px;
-    height: 38px;
     background: url(../../assets/sprite-tipoinfo.png) no-repeat;
-    margin-bottom: 6px;
 }
 
 .main-img p span.nota {
-    display: block;
-    width: 38px;
-    height: 38px;
-    background: url(../../assets/sprite-tipoinfo.png) -99px 0 no-repeat;
-    margin-bottom: 6px;
+    background-position: -99px 0;
+}
+
+.main-img p span.ypf-logo {
+    background-position: -147px 0;
+}
+
+.main-img p span.file {
+    background-position: -194px 0;
 }
 
 .main-img .tag {

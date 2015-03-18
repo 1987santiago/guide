@@ -16,19 +16,27 @@ section.content .otras-regiones-common .otras-regiones-bloque{
 
 .otras-regiones-common .fluid-regiones-container .otras-regiones-bloque,
 .otras-regiones-common .responsive-regiones-container .otras-regiones-bloque{
-    margin-bottom: 25px;
+    margin-bottom: 8px;
+}
+
+.otras-regiones-common .main-img{
+    margin-bottom: 8;
 }
 
 .otras-regiones-common .otras-regiones-bloque .title{
     color: #14b9a7;
     font: 17px/20px "din-medium";
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 @media (max-width: 1023px) {
     .otras-regiones-common{
         width: 80%;
         margin: 0 auto;
+    }
+
+    .otras-regiones-common .otras-regiones-bloque .title{
+        margin-bottom: 0;
     }
 
     .otras-regiones-bloque p.desc{

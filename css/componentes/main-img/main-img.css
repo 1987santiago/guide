@@ -69,7 +69,7 @@
 .main-img .tag {
     left:-16px;
     top: 16px;
-    width: 83px;
+    width: 100px;
     height: 30px;
     text-indent: -9000px;
     background: url(../../assets/sprite-tags.png) no-repeat;
@@ -94,5 +94,52 @@
 
 .main-img .tag.cuyo {
     background-position: 0 -265px;
+}
+
+
+@media (max-width: 1023px) {
+
+    .main-img .tag {
+        width: auto;
+        height: 21px;
+        padding: 0 5px;
+        text-indent: 0;
+        background-image: none;
+        position: static;
+        font: 11px/21px "din-black";
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+    .main-img .tag.patagonia {
+        background-color: #2ab6ec;
+    }
+
+    .main-img .tag.litoral {
+        background-color: #dcd512;
+    }
+
+    .main-img .tag.baires {
+        background-color: #0a8166;
+    }
+
+    .main-img .tag.noroeste {
+        background-color: #8e288e;
+    }
+
+    .main-img .tag.cuyo {
+        background-color: #aa2f36;
+    }
+
+    .main-img.big p {
+        font-size: 33px;
+        line-height: 36px;
+    }
+
+    .main-img.big p span {
+        display: none;
+    }
+
 }
 

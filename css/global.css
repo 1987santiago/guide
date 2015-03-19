@@ -406,9 +406,9 @@ h2 {
     margin-top: 35px;
 }
 
-section.content{
+/*section.content{
     width: 850px;
-}
+}*/
 
 .tres-columnas section.content{
     width: 570px;
@@ -468,11 +468,11 @@ section.content{
 
 /***** Menu lateral principal*****/
 
-section.content-container aside{
+/*section.content-container aside{
     width: 160px;
     border-top: 3px solid #3cb1bb;
     padding-top: 10px;
-}
+}*/
 
 section.content-container aside h2{
     color: #3cb1bb;

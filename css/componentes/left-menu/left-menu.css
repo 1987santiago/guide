@@ -257,6 +257,7 @@ section.content-container aside li > ul {
         padding: 0;
         display: block;
         float: none;
+        position: static;
     }
     section.content-container aside h2 {
         display: none;
@@ -269,9 +270,7 @@ section.content-container aside li > ul {
     }
     section.content {
         width: 98%;
-        margin: 20px auto;
-        display: block;
-        float: none;
+        margin-top: 50px;
     }
     .content-nav {
         width: 100%;

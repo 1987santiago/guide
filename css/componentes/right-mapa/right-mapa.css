@@ -5,6 +5,11 @@
 	margin-bottom: 12px;
 }
 
+.map .map-img img {
+	width: 100%;
+	display: block;
+}
+
 .map a.title {
 	display: block;
 	font-size: 17px;

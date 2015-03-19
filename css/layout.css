@@ -131,25 +131,26 @@ background-position: 0 -185px; }
 
 
 section.content {
-    width: 760px;
-    margin-left: 25px;
+    /* width: 760px;
+    margin-left: 25px;*/
     /*agregado*/
     margin-bottom: 60px;
 }
 
-section.content-container {
-	margin-top: 20px;
+section.container {
+    margin-top: 20px;
 }
 
-section.content-container aside {
-    width: 175px;
+section.container aside {
+    /*width: 175px;
     padding-top: 0;
     border-top: 0;
-    float: left;
+    float: left;*/
     margin-top: -30px;
+    position: static;
 }
 
-section.content-container aside h2 {
+section.container aside h2 {
     font-family: "din-black";
     color: #3f3f3f;
     font-size: 11px;
@@ -206,9 +207,9 @@ section.content p.desc.autor span {
     font-family: "din-black";
 }
 
-section.content .content-right {
-	width: 285px;
-}
+/*section.content .content-right {
+    width: 285px;
+}*/
 
 section.content .content-right h3 {
     font-size: 17px;
@@ -234,9 +235,9 @@ section.content p{
    /* margin-bottom: 15px;*/
 }
 
-section.content .left {
+/*section.content .left {
     width: 415px;
-}
+}*/
 
 section.content .bloque.principal h2{
     margin-bottom: 10px;
@@ -262,9 +263,9 @@ section.content .bloque p{
     .layout {
         width: 100%;
     }
-    section.content .content-right {
+    /*section.content .content-right {
         width: 100%;
-    }
+    }*/
 }
 @media (max-width: 767px) {
     html {
@@ -278,7 +279,7 @@ section.content .bloque p{
         margin: 70px 0 0 -20px;
         width: 80%;
     }
-    section.content-container {
+    section.container {
         margin-top: 0;
     }
     

@@ -2,12 +2,12 @@
 
 	// menu lateral colapsible
 
-	var aside = $('aside.left'),
+	var aside = $('aside.principal-aside'),
 	linksExpandables;
 
 	if (aside) {
 		// listado de links que pueden ser expandibles
-		linksExpandables = $('aside.left > ul > li > a');
+		linksExpandables = $('aside.principal-aside > ul > li > a');
 
 		// Los recorro para ver cual tiene submenu y le agrego clases
 		$.each(linksExpandables, function (i,e) {

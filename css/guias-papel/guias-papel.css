@@ -3,6 +3,11 @@
 }
 
 /*----------------- CONTENIDO ----------------*/
+
+.principal-aside{
+	display: none;
+}
+
 .guia-listado{
 	margin-top: 30px;
 }
@@ -80,9 +85,16 @@
 
 
 
-
+@media (max-width: 768px) {
+	.guias-papel section.content {
+		margin-top: 70px;
+	}
+}
 
 @media (max-width: 990px) {
+	.guias-papel .destacado {
+		display: none;
+	}
 
 	.guia-listado .guia-item {
 		padding: 20px 10px;
@@ -102,5 +114,11 @@
 
 	.guia-listado .icon-estacion {
 		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.guias-papel .principal-aside {
+		display: block;
 	}
 }

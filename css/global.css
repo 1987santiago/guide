@@ -2108,8 +2108,9 @@ footer .share dd a{
         text-transform: none;
     }
     .headerYPF .navNuevo > ul.secundaria li a span.hide{
-        display: inline-block;
+        display: inline-block!important;
     }
+
     .headerYPF .navNuevo > ul.principal li.login a{
         background: url('./assets/ic-menu-login.png') left no-repeat;
     }

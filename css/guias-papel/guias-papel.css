@@ -4,17 +4,9 @@
 
 /*----------------- CONTENIDO ----------------*/
 
-.principal-aside{
+.guias-papel .principal-aside{
 	display: none;
 }
-
-
-
-
-
-
-
-
 
 .guia-listado{
 	margin-top: 30px;
@@ -103,12 +95,6 @@
 	.guias-papel .destacado {
 		display: none;
 	}
-
-
-
-
-
-
 
 	.guia-listado .guia-item {
 		padding: 20px 10px;

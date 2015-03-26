@@ -8,6 +8,14 @@
 	display: none;
 }
 
+
+
+
+
+
+
+
+
 .guia-listado{
 	margin-top: 30px;
 }
@@ -87,7 +95,7 @@
 
 @media (max-width: 768px) {
 	.guias-papel section.content {
-		margin-top: 70px;
+		margin-top: 76px;
 	}
 }
 
@@ -95,6 +103,12 @@
 	.guias-papel .destacado {
 		display: none;
 	}
+
+
+
+
+
+
 
 	.guia-listado .guia-item {
 		padding: 20px 10px;

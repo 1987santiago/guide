@@ -2,6 +2,7 @@
 .main-img {
     position: relative;
     margin-bottom: 16px;
+    z-index: 0;
 }
 
 .main-img img {
@@ -96,6 +97,49 @@
     background-position: 0 -265px;
 }
 
+
+/*GUIAS PAPEL*/
+.guias-papel .main-img {
+    background: #0093a6 url('../../assets/fd-main-banner-guias-papel.jpg') right no-repeat;
+    height: 224px;
+}
+
+.guias-papel .main-img p{
+    font: 62px/65px "din-black";
+    bottom: 45px;
+}
+
+@media (max-width: 540px) {
+    .guias-papel .main-img {
+        background-image: none;
+        height: 134px;
+    }
+
+    .guias-papel .main-img p{
+        font: 33px/35px "din-black";
+        bottom: 20px;
+    }
+
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+    .guias-papel .main-img {
+        background-image: none;
+        height: 185px;
+    }
+
+    .guias-papel .main-img p{
+        font: 42px/45px "din-black";
+        bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .guias-papel .main-img {
+        background-image: none;
+        height: 224px;
+    }
+}
 
 @media (max-width: 1023px) {
 

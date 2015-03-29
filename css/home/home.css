@@ -8,6 +8,24 @@
 	display: none;
 }
 
+.home .main-item{
+	min-height: 220px;
+}
+
+.home .main-item span,
+.home .main-item p{
+	display: block;
+	width: 38%;
+	margin-left: 60%;
+}
+
+.home .main-item img{
+	position: absolute;
+	display: block;
+	width: 60%;
+	top: 0;
+	height: auto
+}
 
 
 
